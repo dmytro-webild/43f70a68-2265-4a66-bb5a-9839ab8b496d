@@ -26,35 +26,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "Reviews",
-          id: "/reviews",
-        },
+          name: "Reviews",          id: "/reviews"},
         {
-          name: "About Us",
-          id: "/about",
-        },
+          name: "About Us",          id: "/about"},
         {
-          name: "FAQ",
-          id: "/faq",
-        },
+          name: "FAQ",          id: "/faq"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Cal Coast Water Heating Repair"
       button={{
-        text: "Schedule Service",
-        href: "/contact",
-      }}
+        text: "Schedule Service",        href: "/contact"}}
     />
   </div>
 
@@ -63,9 +49,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="About Cal Coast Water Heating Repair"
       description={[
-        "Established over two decades ago, Cal Coast Water Heating Repair has grown to become Agoura Hills' trusted partner for all water heating solutions. Our journey began with a simple mission: to provide unparalleled service, combining technical expertise with genuine care for our community.",
-        "We believe in honest work, transparent pricing, and rapid response times. Our team of highly trained and certified technicians is dedicated to ensuring your home or business always has reliable hot water. We pride ourselves on building lasting relationships with our clients through exceptional service and unwavering reliability.",
-      ]}
+        "Established over two decades ago, Cal Coast Water Heating Repair has grown to become Agoura Hills' trusted partner for all water heating solutions. Our journey began with a simple mission: to provide unparalleled service, combining technical expertise with genuine care for our community.",        "We believe in honest work, transparent pricing, and rapid response times. Our team of highly trained and certified technicians is dedicated to ensuring your home or business always has reliable hot water. We pride ourselves on building lasting relationships with our clients through exceptional service and unwavering reliability."]}
     />
   </div>
 
@@ -77,26 +61,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       members={[
         {
-          id: "t1",
-          name: "Michael Davis",
-          role: "Lead Technician",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-male-car-mechanic-car-repair-shop_23-2150367539.jpg",
-          imageAlt: "Michael Davis, Lead Technician",
-        },
+          id: "t1",          name: "Michael Davis",          role: "Lead Technician",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-male-car-mechanic-car-repair-shop_23-2150367539.jpg",          imageAlt: "Michael Davis, Lead Technician"},
         {
-          id: "t2",
-          name: "Sarah Chen",
-          role: "Senior Plumber",
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-woman-blue-t-shirt-propping-chin-hand-looking-merry_176474-32606.jpg",
-          imageAlt: "Sarah Chen, Senior Plumber",
-        },
+          id: "t2",          name: "Sarah Chen",          role: "Senior Plumber",          imageSrc: "http://img.b2bpic.net/free-photo/mature-woman-blue-t-shirt-propping-chin-hand-looking-merry_176474-32606.jpg",          imageAlt: "Sarah Chen, Senior Plumber"},
         {
-          id: "t3",
-          name: "David Rodriguez",
-          role: "Service Coordinator",
-          imageSrc: "http://img.b2bpic.net/free-photo/fired-businessman-holding-his-belongings-screaming-from-frustration-office_637285-6837.jpg",
-          imageAlt: "David Rodriguez, Service Coordinator",
-        },
+          id: "t3",          name: "David Rodriguez",          role: "Service Coordinator",          imageSrc: "http://img.b2bpic.net/free-photo/fired-businessman-holding-his-belongings-screaming-from-frustration-office_637285-6837.jpg",          imageAlt: "David Rodriguez, Service Coordinator"},
       ]}
       title="Meet Our Expert Team"
       description="Our certified technicians are the backbone of Cal Coast, bringing years of experience and a friendly approach to every service call."
@@ -107,66 +76,39 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Services",
-          items: [
+          title: "Services",          items: [
             {
-              label: "Water Heater Repair",
-              href: "/services",
-            },
+              label: "Water Heater Repair",              href: "/services"},
             {
-              label: "Installation",
-              href: "/services",
-            },
+              label: "Installation",              href: "/services"},
             {
-              label: "Maintenance",
-              href: "/services",
-            },
+              label: "Maintenance",              href: "/services"},
             {
-              label: "Tankless Heaters",
-              href: "/services",
-            },
+              label: "Tankless Heaters",              href: "/services"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "/about",
-            },
+              label: "About Us",              href: "/about"},
             {
-              label: "Reviews",
-              href: "/reviews",
-            },
+              label: "Reviews",              href: "/reviews"},
             {
-              label: "Contact Us",
-              href: "/contact",
-            },
+              label: "Contact Us",              href: "/contact"},
             {
-              label: "FAQ",
-              href: "/faq",
-            },
+              label: "FAQ",              href: "/faq"},
           ],
         },
         {
-          title: "Resources",
-          items: [
+          title: "Resources",          items: [
             {
-              label: "Blog",
-              href: "#",
-            },
+              label: "Blog",              href: "#"},
             {
-              label: "Service Areas",
-              href: "#",
-            },
+              label: "Service Areas",              href: "#"},
             {
-              label: "Emergency Tips",
-              href: "#",
-            },
+              label: "Emergency Tips",              href: "#"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
           ],
         },
       ]}
