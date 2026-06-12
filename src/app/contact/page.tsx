@@ -26,35 +26,21 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "Reviews",
-          id: "/reviews",
-        },
+          name: "Reviews",          id: "/reviews"},
         {
-          name: "About Us",
-          id: "/about",
-        },
+          name: "About Us",          id: "/about"},
         {
-          name: "FAQ",
-          id: "/faq",
-        },
+          name: "FAQ",          id: "/faq"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Cal Coast Water Heating Repair"
       button={{
-        text: "Schedule Service",
-        href: "/contact",
-      }}
+        text: "Schedule Service",        href: "/contact"}}
     />
   </div>
 
@@ -62,36 +48,22 @@ export default function LandingPage() {
       <ContactSplitForm
       useInvertedBackground={true}
       title="Get Your Free Estimate & Schedule Service"
-      description="Fill out the form below to connect with a Cal Coast expert. We offer fast, reliable service across Agoura Hills."
+      description="Fill out the form below to connect with a Cal Coast expert. We offer fast, reliable service across Agoura Hills.\n\nAddress: 5695 Kanan Rd, Agoura Hills, CA 91301\nPhone: (818) 724-7814\nHours: Open 24 hours"
       inputs={[
         {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-          required: true,
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
         },
         {
-          name: "email",
-          type: "email",
-          placeholder: "Your Email",
-          required: true,
+          name: "email",          type: "email",          placeholder: "Your Email",          required: true,
         },
         {
-          name: "phone",
-          type: "tel",
-          placeholder: "Your Phone Number",
-          required: true,
+          name: "phone",          type: "tel",          placeholder: "Your Phone Number",          required: true,
         },
         {
-          name: "address",
-          type: "text",
-          placeholder: "Your Address (Optional)",
-        },
+          name: "address",          type: "text",          placeholder: "Your Address (Optional)"},
       ]}
       textarea={{
-        name: "message",
-        placeholder: "Tell us about your water heating needs...",
-        rows: 5,
+        name: "message",        placeholder: "Tell us about your water heating needs...",        rows: 5,
         required: true,
       }}
       imageSrc="http://img.b2bpic.net/free-photo/customer-service-cute-woman-white-shirt-with-headset-computer-looking-up-thinking_140725-164358.jpg"
@@ -109,20 +81,11 @@ export default function LandingPage() {
       tag="Reliability & Expertise You Can Trust"
       metrics={[
         {
-          id: "cm1",
-          value: "24/7",
-          description: "Emergency Service Availability",
-        },
+          id: "cm1",          value: "24/7",          description: "Emergency Service Availability"},
         {
-          id: "cm2",
-          value: "Certified",
-          description: "Expert Technicians",
-        },
+          id: "cm2",          value: "Certified",          description: "Expert Technicians"},
         {
-          id: "cm3",
-          value: "Transparent",
-          description: "Upfront Pricing",
-        },
+          id: "cm3",          value: "Transparent",          description: "Upfront Pricing"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -132,66 +95,39 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Services",
-          items: [
+          title: "Services",          items: [
             {
-              label: "Water Heater Repair",
-              href: "/services",
-            },
+              label: "Water Heater Repair",              href: "/services"},
             {
-              label: "Installation",
-              href: "/services",
-            },
+              label: "Installation",              href: "/services"},
             {
-              label: "Maintenance",
-              href: "/services",
-            },
+              label: "Maintenance",              href: "/services"},
             {
-              label: "Tankless Heaters",
-              href: "/services",
-            },
+              label: "Tankless Heaters",              href: "/services"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "/about",
-            },
+              label: "About Us",              href: "/about"},
             {
-              label: "Reviews",
-              href: "/reviews",
-            },
+              label: "Reviews",              href: "/reviews"},
             {
-              label: "Contact Us",
-              href: "/contact",
-            },
+              label: "Contact Us",              href: "/contact"},
             {
-              label: "FAQ",
-              href: "/faq",
-            },
+              label: "FAQ",              href: "/faq"},
           ],
         },
         {
-          title: "Resources",
-          items: [
+          title: "Resources",          items: [
             {
-              label: "Blog",
-              href: "#",
-            },
+              label: "Blog",              href: "#"},
             {
-              label: "Service Areas",
-              href: "#",
-            },
+              label: "Service Areas",              href: "#"},
             {
-              label: "Emergency Tips",
-              href: "#",
-            },
+              label: "Emergency Tips",              href: "#"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
           ],
         },
       ]}
